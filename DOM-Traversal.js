@@ -1,6 +1,6 @@
-const grandparent = document.getElementById("grandparent-id")
+const parent = document.querySelector('.parent')
 
-changeColor(grandparent)
+changeColor(parent)
 
 function changeColor(element) {
   element.style.backgroundColor = "#333641"
