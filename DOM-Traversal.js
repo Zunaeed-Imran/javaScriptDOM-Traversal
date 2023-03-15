@@ -1,4 +1,7 @@
 const grandparent = document.getElementById("grandparent-id")
 
+changeColor(grandparent)
 
-  grandparent.style.backgroundColor="#333"
+function changeColor(element) {
+  element.style.backgroundColor = "#333641"
+}
